@@ -6,13 +6,16 @@ const popup = document.getElementById('popup-container');
 const notification = document.getElementById('notification-container')
 const finalMessage = document.getElementById('final-message');
 
+// the stick man to be hung 
 const figureParts = document.querySelectorAll('.figure-part');
 
+// Words to be used 
 const words = ['application', 'programming', 'interface', 'wizard'];
 
+// set word length
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
-
+// display the letters player got right & wrong 
 const correctLetters = [];
 const wrongLetters = [];
 
@@ -73,7 +76,7 @@ function showNotification(){
         notification.classList.remove('show');
     }, 2000);
 }
-
+// ! in vs code keyCode is lined out im not sure why it doesn't seem to effect the code though
 // letter press on key stroke
 window.addEventListener('keydown', e => {
     if (e.keyCode >= 65 && e.keyCode <= 90){

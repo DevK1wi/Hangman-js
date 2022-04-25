@@ -1,10 +1,22 @@
 /* S T Y L E */
 
+
+/* TODO Add custom css for v2 */
+
+
+/* TODO Look for different colors */
+
+
+/* TODO Convert this to scss/sass (Just because i like var's) */
+
+
+/*? what dose * do in the style*/
+
 * {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #34495e;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +28,7 @@ body{
     overflow: hidden;
 }
 
-h1{
+h1 {
     margin: 20px 0 0;
 }
 
@@ -28,14 +40,14 @@ h1{
     width: 450px;
 }
 
-.figure-container{
+.figure-container {
     fill: transparent;
     stroke: #fff;
     stroke-width: 4px;
     stroke-linecap: round;
 }
 
-.figure-part{
+.figure-part {
     display: none;
 }
 
@@ -52,7 +64,7 @@ h1{
     margin: 0 0 5px;
 }
 
-.wrong-letters-container span{
+.wrong-letters-container span {
     font-size: 24px;
 }
 
@@ -97,12 +109,12 @@ h1{
 
 .popup button {
     cursor: pointer;
-  background-color: #fff;
-  color: #2980b9;
-  border: 0;
-  margin-top: 20px;
-  padding: 12px 20px;
-  font-size: 16px;
+    background-color: #fff;
+    color: #2980b9;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
 }
 
 .popup button:focus {
